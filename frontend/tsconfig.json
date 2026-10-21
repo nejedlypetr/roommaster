@@ -1,0 +1,15 @@
+{
+	"files": [],
+	"references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }],
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*"]
+		},
+		"types": ["twin.macro"],
+		"typeRoots": ["./node_modules/@types", "./src/types"],
+		"strict": true,
+        "noImplicitAny": true,
+        "skipLibCheck": false
+	}
+}

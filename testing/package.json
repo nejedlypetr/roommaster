@@ -1,0 +1,16 @@
+{
+  "name": "playwright-api-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:api": "playwright test --project='API Tests'",
+    "test:e2e": "playwright test --project='E2E Tests'"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.30.0",
+    "dotenv": "^16.0.0",
+    "playwright": "^1.30.0"
+  }
+}

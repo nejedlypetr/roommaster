@@ -1,0 +1,66 @@
+# Backend (Java Spring Boot)
+/backend/target/
+/backend/.mvn/
+/backend/mvnw
+/backend/mvnw.cmd
+/backend/*.log
+/backend/*.iml
+/backend/.idea/
+/backend/.vscode/
+
+# Frontend (React TypeScript Vite)
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.vite/
+/frontend/*.local
+/frontend/.env
+/frontend/.env.*
+!/frontend/.env.example
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# General
+.DS_Store
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# IDE-specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build output
+build/
+dist/
+out/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# testing secret
+/testing/.env

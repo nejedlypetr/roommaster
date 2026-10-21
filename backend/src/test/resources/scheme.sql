@@ -1,0 +1,1 @@
+CREATE SCHEMA room_master;
